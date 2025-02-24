@@ -475,11 +475,8 @@ a:hover{
     .ok{
         font-size: 40px;
     }
-    .container1
-    {
-        display: grid;
-        justify-content: center;
-        align-items: center;
+    .concl{
+        margin-left: 20px;
     }
     .abt1{
         margin: 0;
