@@ -6,14 +6,39 @@ body{
     font-style: normal;
 }
 
-.main
-{
-    background-image: url(droi.jpg);
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-
+#min {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    flex-wrap: wrap;
 }
+.container2 img {
+    max-width: 100%; 
+    height: auto;
+    max-height: 500px;
+}
+.container1 {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    color: orangered;
+}
+
+.ok {
+    animation: bounce 3s ease 0s infinite;
+    margin: 0;
+    padding: 5px 0;
+    
+}
+
+h2 {
+    margin: 0;
+    padding: 3px 0;
+}
+
 .navdiv{
     display: flex;
     align-items: center;
@@ -153,9 +178,7 @@ body{
     text-align: center;
     margin: 0;
 }
-.ok{
-    animation: bounce 3s ease 0s infinite;
-}
+
 
 a
 {
@@ -183,9 +206,9 @@ a:hover{
 }
 .img3
 {
-    height: 270px;
-    width: 390px;
-    border-radius: 5%;
+    max-width: 100%; 
+    height: auto;
+    max-height: 600px;
 }
 .cont
 {
@@ -432,4 +455,13 @@ a:hover{
         
         
     }
+    .you{
+        display: grid;
+        padding: 0;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    
 }
