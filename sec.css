@@ -1,0 +1,398 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.main
+{
+    *{text-decoration: none;}
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.heading img {
+    margin-left: 20px;
+    width: 100px; 
+    height: auto;
+}
+.list
+{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    font-size: large;
+}
+.img1
+{
+    height: 270px;
+    width: 290px;
+    border-radius: 5%;
+}
+
+.workshop
+{
+    *{
+        text-decoration: none;
+        color: white;
+    }
+}
+.elements
+{
+    *{
+        margin: 0;
+    }
+}
+.mainfee
+{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 20px;
+    
+
+}
+#logos {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    
+  }
+  
+  .logdiv {
+    display: flex;
+    justify-content: center; 
+    gap: 100px; 
+    flex-wrap: wrap;
+  }
+  
+  .img2 {
+    max-width: 150px; 
+    max-height: 80px;
+  }
+.work
+{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 20px;
+}
+
+.workshop h2 {
+    text-align: center;
+    font-size: 40px;
+}
+.btn
+{
+    font-weight: bold;
+    width: 150px;
+    height: 1cm;
+    border-radius: 40px;
+    border: 2px solid white;
+    margin-bottom: 10px;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+}
+.btn:hover{
+    border-color: orangered;
+    color: orangered;
+}
+.first {
+    max-width: 400px; 
+    margin: 0 auto; 
+    text-align: center;
+    padding: 20px;
+    border: 2px solid orangered;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.cont2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cont2 img {
+    max-width: 300px;
+    height: auto; 
+}
+
+.cont2 p {
+    max-width: 600px; 
+    text-align: justify;
+}
+
+.first:hover
+{
+    border-radius: 5%;
+    border: none;
+    background-color: gray;
+    transform: translateY(-10px);    
+}
+.feediv
+{
+    border: 3px solid orangered;
+    border-radius: 5%;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    animation: bounce 2s ease 3s ;
+}
+.feediv:hover{
+    transform: translateY(-10px);   
+}
+.write {
+    text-align: center;
+    margin: 0;
+}
+#min{
+    animation: bounce 3s ease 0s infinite;
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: orangered;
+}
+.list1
+{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: large;
+}
+
+.cont
+{
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+    
+}
+.cnt{
+    display: inline-flex;
+    gap: 20px;
+}
+.cntt h3, .cntt h1 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.cntt{
+    margin: 30px;
+}
+#contact
+{
+    margin: 50px;
+}
+.abt1
+{
+    padding: 20px;
+    border: 2px dotted orangered;
+}
+.exp input{
+    height: 1cm;
+    width: 500px;
+    background: transparent;
+    border-radius: 5px;
+    text-align: center;
+    font-size: medium;
+    color: white;
+}
+.mssg input{
+    height: 5cm;
+    width: 1030px;
+    background: transparent;
+    border-radius: 5px;
+    text-align: center;
+    font-size: medium;
+    color: white;
+}
+.cont h3, .cont h1 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+#abt {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    text-align: center; 
+    padding: 50px 20px; 
+  }
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+  }
+
+  #min {
+    display: flex;
+    justify-content: center;  
+    align-items: center;               
+    text-align: center;       
+}
+.ok{
+    font-size: 6rem;  
+    color: orangered;
+    font-family: "Monoton", serif;
+    font-weight: 400;
+    font-style: normal;    
+}
+  
+.ele {
+    display: flex; 
+    align-items: center; 
+    gap: 20px; 
+    padding: 20px;
+}
+.fir{
+    padding: 10px;
+    border: 2px dotted orangered;
+}
+.ven {
+    display: flex;
+    align-items: center;
+    margin-bottom:30px ;
+}
+.main1 {
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; 
+}
+.main1 h1{
+    color: orangered;
+    font-family: "Monoton", serif;
+    font-size: 4rem;
+    font-weight: 400;
+    margin: 50px;
+}
+
+.ven1
+{
+    padding: 10px;
+    background-color: orangered;
+}
+.ven2
+{
+    padding: 10px;
+    border: 1px solid orangered;
+}
+
+
+.orange-box {
+    background-color: orangered; 
+    color: white; 
+    padding: 20px; 
+    text-align: center; 
+    font-size: 18px;
+    font-weight: bold; 
+    width: 120px;
+    height: 120px;
+    margin: 20px auto;
+    border-radius: 10px; 
+    animation: spin 3s ease 2s infinite forwards;
+
+}
+@keyframes spin{
+    0%{}
+    100%{
+        transform: rotate(360deg);
+        border-radius: 50%;
+    }
+}
+
+.div-gif
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+@media (min-width:200px) and (max-width:550px) {
+    .cont2 {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .work
+    {
+        display: grid;
+        justify-content: center;
+        gap: 10px;
+        padding: 20px;
+    }
+    .mainfee
+    {
+        display: grid;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px;
+    }
+    .logdiv {
+        display: grid;
+        justify-content: center; 
+        gap: 100px; 
+        flex-wrap: wrap;
+      }
+      .exp input{
+        height: 1cm;
+        width: 150px;
+        background: transparent;
+        border-radius: 5px;
+        text-align: center;
+        font-size: medium;
+        color: white;
+    }
+    .mssg input{
+        height: 5cm;
+        width: 320px;
+        background: transparent;
+        border-radius: 5px;
+        text-align: center;
+        font-size: medium;
+        color: white;
+    }
+    .cont
+    {
+        display: grid;
+        gap: 20px;
+        justify-content: center;
+        
+    }
+    .ele {
+        display: grid; 
+        align-items: center;
+        gap: 20px; 
+    }
+    .main1 {
+        display: grid;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        flex-direction: column; 
+        align-items: center;
+        text-align: center; 
+    }
+    .main1 h1{
+        color: orangered;
+        font-family: "Monoton", serif;
+        font-size: 3rem;
+        margin: 50px;
+    }
+
+    .div-gif
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+}
