@@ -463,5 +463,20 @@ a:hover{
         align-items: center;
         gap: 20px;
     }
+    .list{
+        font-size: small;
+    }
+    #min{
+        margin-top: 70px;
+        font-size: 10px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    .ok{
+        font-size: 40px;
+    }
+    .abt1{
+        margin: 0;
+    }
     
 }
